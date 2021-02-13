@@ -1,0 +1,118 @@
+{
+  "uuid": "64706afe0148fa21b5d55612b85e3663",
+  "path": "Offline/tripwire-alarm",
+  "name": "tripwire-alarm",
+  "content": "",
+  "created_at": "2021-02-03 01:08:02",
+  "updated_at": "2021-02-13 01:09:28",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4349777ec86e371c48cd9772c7b754ad",
+      "title": "Sheet_Main",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9500cabf66274dd6ad46a9f0b028cd24": 1,
+        "bf2d257572954f11928eee9b2a72c552": 1,
+        "907bc4df40084ae7b095a26a568c9608": 1,
+        "2da9c610fc66406991b9798228047cc1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BUZZERSMD",
+          1,
+          "BUZZER-CMT1603",
+          "SG2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "df7ed559ad3a41a6a45232468736bccf",
+            "uuid": "2da9c610fc66406991b9798228047cc1"
+          }
+        ],
+        [
+          "Adafruit VL53L0X",
+          1,
+          "ADAFRUIT VL53L0X",
+          "U2",
+          {
+            "BOM_Manufacturer": "Adafruit",
+            "BOM_Manufacturer Part": "3317",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "c1834b12638647909951c14a8623281b",
+            "uuid": "907bc4df40084ae7b095a26a568c9608"
+          }
+        ],
+        [
+          "RASPBERRY PI PICO",
+          1,
+          "RASPBERRY PI PICO",
+          "GP1",
+          {
+            "BOM_Manufacturer": "Raspberry Pi Foundation",
+            "BOM_Manufacturer Part": "RPi Pico",
+            "BOM_Supplier": "Raspberry Pi Foundation",
+            "BOM_Supplier Part": "RPi Pico",
+            "puuid": "50ca2fcdaef94fc9b20b1432a6c363a4",
+            "uuid": "9500cabf66274dd6ad46a9f0b028cd24"
+          }
+        ],
+        [
+          "SparkFun_Battery_Babysittero",
+          1,
+          "SPARKFUN_BATTERY_BABYSITTERSERI",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "SparkFun",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e59e9401721b4317b05a1e93650783b3",
+            "uuid": "bf2d257572954f11928eee9b2a72c552"
+          }
+        ]
+      ],
+      "updateTime": 1612343282,
+      "createTime": 1612343282,
+      "histories": [],
+      "created_at": "2021-02-03 01:08:02",
+      "updated_at": "2021-02-03 01:08:02"
+    },
+    {
+      "uuid": "aa54624bc00cc7ee8332445514d72b98",
+      "puuid": "64706afe0148fa21b5d55612b85e3663",
+      "title": "PCB_Layout",
+      "filename": "PCB_Layout.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "df7ed559ad3a41a6a45232468736bccf": 1,
+        "c1834b12638647909951c14a8623281b": 1,
+        "50ca2fcdaef94fc9b20b1432a6c363a4": 1,
+        "e59e9401721b4317b05a1e93650783b3": 1
+      },
+      "BOM": [],
+      "updateTime": 1613207368,
+      "createTime": 1612343597,
+      "histories": [],
+      "created_at": "2021-02-03 01:13:17",
+      "updated_at": "2021-02-13 01:09:28"
+    }
+  ],
+  "sort": [],
+  "title": "tripwire-alarm",
+  "foldername": "tripwire-alarm",
+  "schfilename": "tripwire-alarm.json",
+  "schfilemtime": 1613207354961
+}
